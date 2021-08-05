@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="ISO-8859-1"?><!DOCTYPE rss PUBLIC "-//Netscape Communications//DTD RSS 0.91//EN" "http://my.netscape.com/publish/formats/rss-0.91.dtd">
+<rss version="0.91"><channel><title> Changes</title><link>http://barcode4j.sourceforge.net/changes.html</link><description> Changes</description><language>en-us</language><item><title>code fix</title><link>http://barcode4j.sourceforge.net/changes.html</link><description>code fix
+              by
+              jmaerki
+              :
+              
+        Fixed the registration of all barcode types in the FOP 0.20.5 extension. PDF417 and 
+        DataMatrix didn't work in 2.0 alpha 1.  
+      </description></item><item><title>code add</title><link>http://barcode4j.sourceforge.net/changes.html</link><description>code add
+              by
+              jmaerki
+              :
+              
+        Added support for orientation in the FOP 0.20.5 extension.
+      </description></item></channel></rss>

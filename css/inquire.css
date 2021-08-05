@@ -1,0 +1,49 @@
+body{
+    background-attachment: fixed;
+    background-repeat:no-repeat;
+    background-size:cover;
+    background-image: url(/image/questionbackground.png);
+}
+
+div{
+    text-align: center;
+    margin-top: 300px;
+}
+input.myName{
+    border: 2px solid;
+    border-radius: 5px;
+    height: 30px;
+    font-size: 20px;
+    margin: auto;
+}
+
+#bigtitle{
+    text-shadow: 2px 2px 3px rgba(0, 0, 0, 1);
+    color: white;
+    font-size: 150px;
+    margin: 0;
+}
+
+.myButton{
+    color: rgb(255, 255, 255); 
+    font-size: 60px; 
+    line-height: 60px; 
+    padding: 6px; border-radius: 0px; 
+    background-image: linear-gradient(to right, rgb(28, 110, 164) 0%, rgb(35, 136, 203) 50%, rgb(20, 78, 117) 100%); 
+    box-shadow: rgb(0, 0, 0) 5px 5px 15px 5px; 
+    border: 2px solid rgb(28, 110, 164);
+    margin: auto; 
+    margin-top: 20px;
+    transition-property: transform;
+    transition-duration: 0.5s;
+}
+
+.myButton:hover {
+    background: #1C6EA4;
+    transform: scale(1.05);
+}
+
+.myButton:active {
+    box-shadow: inset 5px 5px 10px 5px #000000;
+    transform: scale(0.95);
+}

@@ -1,0 +1,343 @@
+body{
+    background-color: rgb(0, 0, 0);
+}
+
+body div{
+    text-align: center;
+    margin: 10px;
+}
+
+h1{
+    border-top: 30px solid rgba(255, 255, 255, 0);
+    border-bottom: 20px solid rgba(255, 255, 255, 0);
+    margin: 0;
+    color: white;
+    font-size: 35px;
+    line-height: 15px;
+}
+
+.page1{
+    margin-bottom: 0;
+    border-bottom: 8px solid rgb(87, 87, 87);
+    background: linear-gradient(271deg, #5a5a5a, #494949, #000000);
+    background-size: 600% 600%;
+    animation: AnimationName 5s ease infinite;
+}
+
+@keyframes AnimationName {
+    0%{background-position:0% 0%}
+    50%{background-position:50% 0%}
+    100%{background-position:0% 0%}
+}
+
+.page1>img{
+    max-width: 100%;
+    border-bottom: 10px outset rgba(0, 0, 0, 0);
+    display: block;
+    margin: auto;
+}
+
+.page2{
+    margin: 0;
+    border-bottom: 8px solid rgb(87, 87, 87);
+    background-image: url(/image/gonbackgroundnew.jpg);
+}
+
+#area{
+    position: relative;
+    margin: auto;
+}
+
+#area>.position>a>img{
+    padding-top: 7px;
+    transition-property: transform;
+    transition-duration: 0.5s;
+}
+
+#area>.position>a>img:hover{
+    padding: 0;
+    border-top: 7px solid rgb(255, 208, 0);
+    filter: brightness(50%);
+    transform: scale(1.15);
+}
+
+#area>.position>#box1{
+    position: absolute;
+    margin-left: -21px;
+    width: 1050px;
+    height: 565px;
+    z-index: 1;
+}
+
+#area>.position>#box2{
+    position: absolute;
+    margin-left: -366px;
+    width: 1050px;
+    height: 565px;
+    z-index: 1;
+}
+
+#area>.position>#box3{
+    position: absolute;
+    margin-left: -710px;
+    width: 1050px;
+    height: 565px;
+    z-index: 1;
+}
+
+#area .box>img{
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+}
+
+.position>a>img{
+    width: 320px;
+    height: 180px;
+}
+
+.position{
+    display: inline-block;
+}
+
+#mapview{
+    width: 1000px;
+    margin: auto;
+    position: relative;
+}
+
+.page2>#mapview>.info{
+    opacity: 1;
+    position: absolute;
+    box-sizing: border-box;
+    background-color: rgba(0,0,0,.6);
+    top: -10px;
+    left: 40px;
+    width: 900px;
+    height: 566px;
+    text-align: center;
+    padding-top: 40px;
+    color: white;
+}
+
+.page2>#mapview>.info:hover{
+    transition: 250ms;
+    opacity: 0;
+}
+
+.page2>#mapview>.info:not(:hover){
+    transition: 500ms;
+    opacity: 1;
+}
+
+.page2 p{
+    font-size: 20px;
+    line-height: 40px;
+    text-align:center;
+}
+
+#mapview>img{
+    border-radius: 10px;
+}
+
+.page3{
+    margin: 0;
+    border-bottom: 8px solid rgb(87, 87, 87);
+    position: relative;
+    background-image: url(/image/kirubackgroundnew.png); 
+}
+
+.page3>.people{
+    display: inline-block;
+}
+
+#person{
+    width: 150px;
+    margin-left: -900px;
+}
+
+#persons{
+    margin: auto;
+    margin-top: 150px;
+    width: 900px;
+    position: absolute;
+}
+
+#person img{
+    background: linear-gradient(to right, #5C5C5C 0%, #D9D9D9 67%, #E3E3E3 100%);
+    width: 100%;
+    transition-property: opacity,transform;
+    transition-duration: 0.5s;
+    opacity: 0.7;
+}
+
+#person img:hover{
+    transform: scale(1.1);
+    opacity: 1;
+}
+
+#persons>img{
+    max-width: 100%;
+    border: 10px ridge #ffffff46;
+    border-radius: 10px;
+}
+
+.page4{
+    position: relative;
+    border-bottom: 8px solid rgb(87, 87, 87);
+    margin: 0;
+    background-image: url(/image/coobackgroundnew.png);
+}
+
+.skill{
+    width: 700px;
+    display: inline-block;
+}
+
+.page4 img{
+    max-width: 100%;
+    clip-path: polygon(10% 0%, 100% 0, 100% 100%, 20% 100%, 0% 50%);
+}
+
+.power{
+    position: relative;
+}
+
+.page4 p{
+    font-size: 25px;
+    line-height: 20px;
+}
+
+.info1{
+    opacity: 0;
+    position: absolute;
+    box-sizing: border-box;
+    background-color: rgba(0,0,0,.8);
+    top: -10px;
+    left: 140px;
+    width: 530px;
+    height: 227px;
+    text-align: center;
+    padding-top: 40px;
+    color: white;
+}
+
+.info1:hover{
+    transition: 250ms;
+    opacity: 1;
+}
+
+.info1:not(:hover){
+    transition: 500ms;
+    opacity: 0;
+}
+
+.page5{
+    border-bottom: 8px solid rgb(87, 87, 87);
+    position:relative;
+    width: 100%;
+    margin: 0;
+}
+
+form>input{
+    display:block;
+}
+
+input.myName{
+   border: 2px solid;
+   border-radius: 5px;
+   height: 30px;
+   font-size: 20px;
+   margin: auto;
+}
+
+.page5>#bigtitle{
+    text-shadow: 2px 2px 3px rgba(0, 0, 0, 1);
+    color: white;
+    font-size: 150px;
+    margin: 0;
+}
+
+.page5>#smalltitle{
+    text-shadow: 2px 2px 3px rgba(0, 0, 0, 1);
+    color: white;
+    font-size: 100px;
+    margin: 0;
+}
+
+
+
+.myButton{
+    color: rgb(255, 255, 255); 
+    font-size: 60px; 
+    line-height: 60px; 
+    padding: 6px; border-radius: 0px; 
+    background-image: linear-gradient(to right, rgb(28, 110, 164) 0%, rgb(35, 136, 203) 50%, rgb(20, 78, 117) 100%); 
+    box-shadow: rgb(0, 0, 0) 5px 5px 15px 5px; 
+    border: 2px solid rgb(28, 110, 164);
+    margin: auto; 
+    margin-top: 20px;
+    transition-property: transform;
+    transition-duration: 0.5s;
+}
+
+.myButton:hover {
+    background: #1C6EA4;
+    transform: scale(1.05);
+}
+
+.myButton:active {
+    box-shadow: inset 5px 5px 10px 5px #000000;
+    transform: scale(0.95);
+}
+
+.page6 li{
+    color: rgba(255, 255, 255, 0.705);
+    font-size: 20px;
+    text-align: left;
+    font-family:Tahoma;
+    list-style:inside;
+}
+
+.page6 a{
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.705);
+}
+
+.page0{
+    position:fixed;
+    z-index: 1;
+    left: 0px;
+    top: 0px;
+    margin-top: 0px;
+    width: 150px;
+}
+
+.page0 button{
+    display: block;
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+    font-weight: bold;
+    width: 100%;
+    line-height: 80px;
+    margin: 10px;
+    box-shadow: 0px 10px 13px -7px #000000, 10px 10px 10px 0px rgba(0,0,0,0.4);
+    background: linear-gradient(45deg, #000000 0%, #5C5C5C 79%, #E3E3E3 100%);
+    transition-property: transform;
+    transition-duration: 0.5s;
+}
+
+.page0 button:hover {
+    background: linear-gradient(45deg, #000000 0%, #5C5C5C 50%, #E3E3E3 100%);
+    transform: scale(1.1);
+    
+}
+
+.page0 button:active {
+    box-shadow: inset 5px 5px 10px 5px #000000;
+    transform: scale(0.9);
+}
+
+.page0 a{
+    text-decoration: none;
+}
